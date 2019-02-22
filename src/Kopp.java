@@ -33,6 +33,11 @@ public class Kopp {
 		
 	}
 	
+	/**
+	 * 
+	 * Triller terninger og summerer.
+	 * 
+	 */
 	
 	public void trill()
 	{
@@ -40,6 +45,7 @@ public class Kopp {
 		{
 			terninger.trill();
 		}
+		
 		sum  = terninger.get(0).getVerdi() + terninger.get(1).getVerdi();
 		
 	}

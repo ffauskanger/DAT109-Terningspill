@@ -58,7 +58,6 @@ public class Terningspill {
 		int vinnerVerdi = 0;
 		for(Spiller spiller : spillere)
 		{
-			System.out.println(spiller.getNavn() + spiller.getVerdi());
 			if(spiller.getVerdi() > vinnerVerdi)
 			{
 				vinner = spiller;

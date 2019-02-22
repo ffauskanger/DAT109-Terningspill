@@ -1,4 +1,12 @@
 
+/**
+ * 
+ * Spiller - class
+ * 
+ * @author Fredrik
+ *
+ */
+
 public class Spiller {
 	
 	private String navn;
@@ -9,6 +17,11 @@ public class Spiller {
 		this.navn = navn;
 	}
 	
+	/**
+	 * Triller koppen og lagrer verdien til spilleren.
+	 * 
+	 * @param kopp
+	 */
 	
 	public void spill(Kopp kopp)
 	{

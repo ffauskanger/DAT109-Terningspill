@@ -1,5 +1,12 @@
 import java.util.Random;
 
+/**
+ *  Terning-class
+ * 
+ * @author Fredrik
+ *
+ */
+
 public class Terning {
 	
 	
@@ -22,6 +29,11 @@ public class Terning {
 	{
 		this.verdi = verdi;
 	}
+	
+	/**
+	 * Triller en enkelt terning.
+	 * 
+	 */
 	
 	public void trill()
 	{
